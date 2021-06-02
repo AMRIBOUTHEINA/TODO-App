@@ -14,7 +14,7 @@ import { addTodo } from '../Redux/actions';
             <input type="text"
             className="input_add"
             value={description}
-            placeholder="Enter Task"
+            placeholder="Any thing to do ?"
             onChange={(e)=>setDescription(e.target.value)}
             
             />

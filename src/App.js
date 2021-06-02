@@ -7,9 +7,10 @@ function App() {
   return (
     <div className="App">
     <div className="App_container">
+    <h1 className="mytodoapp" style={{fontStyle:"oblique"}}> MY Todo App</h1>
       <Addtask/>
       <Tasklist/>
-      <Filtre /> 
+      <Filtre/> 
       </div>
     </div>
   );
